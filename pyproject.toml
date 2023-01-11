@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foo"
+version = "0.0.1"
+authors = [
+  { name="Diego Diez", email="diego10ruiz@gmail.com" },
+]
+description = "An package to test sphinx documentation"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta"
+]
+
+dependencies = [
+]
+
+[project.urls]
+"Homepage" = "https://ddiez.github.io/sphinx-tests"
+"Bug Tracker" = "https://github.com/ddiez/sphinx-tests/issues"
+
+[tool.setuptools]
+packages = ["foo"]
